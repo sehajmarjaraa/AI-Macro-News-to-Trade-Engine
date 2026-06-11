@@ -85,46 +85,6 @@ export default function About() {
         ))}
       </div>
 
-      {/* Builder */}
-      <div className="mt-2 card-hover border border-accent/30 bg-accent/[0.05] p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-5">
-        <div className="max-w-2xl">
-          <h3 className="text-sm font-medium text-ink">
-            About the builder
-          </h3>
-          <p className="mt-2 text-[13px] text-mut leading-relaxed">
-            I'm <span className="text-ink font-medium">Sehaj Marjara</span> — a finance graduate from Michigan State's
-            Broad College of Business ('26) who likes building the tools I'd want on a desk. I made macro-desk to show
-            how I think: source the data honestly, do the math deterministically, form a view across assets, and state
-            what would prove it wrong. Currently exploring roles across investment banking, corporate finance &amp;
-            FP&amp;A, consulting &amp; strategy, and risk.
-          </p>
-        </div>
-        <div className="flex sm:flex-col gap-2 shrink-0">
-          <a
-            href="https://linkedin.com/in/sehajmarjara"
-            target="_blank"
-            rel="noreferrer"
-            className="text-[12px] px-4 py-2 bg-accent text-bg font-medium text-center btn-primary"
-          >
-            LinkedIn ↗
-          </a>
-          <a
-            href="mailto:sehajmarjaraa@gmail.com?subject=macro-desk"
-            className="text-[12px] px-4 py-2 border border-edge text-mut hover:text-ink hover:border-edge-2 text-center transition-colors"
-          >
-            Email me
-          </a>
-          <a
-            href="https://github.com/sehajmarjaraa"
-            target="_blank"
-            rel="noreferrer"
-            className="text-[12px] px-4 py-2 border border-edge text-mut hover:text-ink hover:border-edge-2 text-center transition-colors"
-          >
-            GitHub ↗
-          </a>
-        </div>
-      </div>
-
       <div className="mt-4 flex flex-wrap items-center gap-1.5">
         <span className="text-[10px] uppercase tracking-wider text-faint mr-1.5">stack</span>
         {STACK.map((s) => (
